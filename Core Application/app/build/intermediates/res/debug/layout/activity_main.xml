@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="#1B5D93"
+        android:layout_width="200dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/linearLayout"
+        android:layout_toEndOf="@+id/linearLayout"
+        android:layout_gravity="right|center_vertical"
+        android:weightSum="1">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton"
+            android:src="@drawable/broadcast_right_very_small"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="180dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#1F7CA0"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/linearLayout"
+        android:layout_toEndOf="@+id/linearLayout"
+        android:layout_gravity="left|top"
+        android:layout_weight=".1"
+        android:weightSum="1"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView8"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/listen_left"/>
+    </LinearLayout>
+
+
+    <Button
+    android:layout_width="wrap_content"
+    android:background="@drawable/wheel1"
+    android:textColor="#727272"
+    android:layout_height="wrap_content"
+    android:id="@+id/splitSettings"
+    android:layout_gravity="center_horizontal|bottom"
+    android:adjustViewBounds="false"
+    android:baselineAlignBottom="false"
+    android:clickable="true"
+    android:src="@drawable/wheel1"
+    android:layout_weight=".1"
+    android:weightSum="1"
+        android:paddingRight="100dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView6"
+        android:layout_gravity="center_horizontal|top"
+        android:src="@drawable/logowhite"
+        android:paddingLeft="13dp"
+        android:paddingBottom="300dp" />
+
+    <!--<ImageView-->
+        <!--android:layout_width="57dp"-->
+        <!--android:layout_height="57dp"-->
+        <!--android:id="@+id/imageView" android:layout_gravity="center_horizontal|bottom"/>-->
+</FrameLayout>
+
+
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+
+    <!--android:gravity="start"-->
+    <!--android:orientation="horizontal" >-->
+    <!--android:paddingBottom="@dimen/activity_vertical_margin"-->
+    <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingRight="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingTop="@dimen/activity_vertical_margin"-->
+    <!--android:background="@drawable/splitsmaller"-->
+    <!--tools:context=".MainActivity" >-->
+
+    <!--<LinearLayout-->
+        <!--android:background="#EAC36E"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_gravity="top"-->
+        <!--android:layout_weight=".1"-->
+        <!--android:weightSum="1">-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:background="#6CBDC4"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:layout_weight=".1"-->
+        <!--android:weightSum="1">-->
+
+
+        <!--<ImageButton-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:background="@drawable/halfcirclebutton"-->
+            <!--android:layout_height="83dp"-->
+            <!--android:id="@+id/RaazSettings"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:adjustViewBounds="false"-->
+            <!--android:baselineAlignBottom="false"-->
+            <!--android:clickable="true"-->
+            <!--android:src="@drawable/halfcirclebutton"-->
+            <!--/>-->
+    <!--</LinearLayout>-->
+
+    <!--<ViewAnimator-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/viewAnimator" />-->
+
+
+<!--</LinearLayout>--><!-- From: file:/C:/Users/yoels/Desktop/SoundersFinal/Core%20Application/app/src/main/res/layout/activity_main.xml -->

@@ -1,0 +1,56 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#1F7CA0"
+    tools:context="com.example.musicsaround.Settings">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/profilePic"
+        android:src="@drawable/station_06"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_x="7dp"
+        android:layout_y="7dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Username"
+        android:id="@+id/userName"
+        android:textColor="#FFFFFF"
+        android:layout_above="@+id/About"
+        android:layout_centerHorizontal="true"
+        android:layout_x="125dp"
+        android:layout_y="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="About"
+        android:id="@+id/About"
+        android:textColor="#FFFFFF"
+        android:layout_alignBottom="@+id/profilePic"
+        android:layout_alignLeft="@+id/userName"
+        android:layout_alignStart="@+id/userName"
+        android:layout_x="125dp"
+        android:layout_y="60dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView9"
+        android:layout_x="2dp"
+        android:layout_y="118dp"
+        android:src="@drawable/settingsom" />
+
+
+</AbsoluteLayout>
